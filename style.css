@@ -1,0 +1,70 @@
+.border {
+  border: 2px Solid Black;
+  background-color: #FFB4B0;
+  margin: 10px;
+  padding: 0 0 0 10px;
+}
+
+#table {
+  Border: 2px solid black;
+  background-color: #4DD7FA;
+  margin: 10px 10px 10px 10px;
+  padding: 30px 0;
+  float: left;
+  text-align: left;
+  display: flex;
+}
+
+.content {
+  background-color: #FEFAC0;
+  color: #785616;
+  float: left;
+  padding: 0 15px;
+  border: 1px solid black;
+  width: 100%;
+  margin: 9px 10px 0 -30px;
+  text-align: left;
+  display: flex;
+}
+
+.butten {
+  padding: 5px 20px;
+  margin: 5px 50px;
+}
+
+.inline {
+  display: inline;
+}
+
+/*#container {
+  width: 100%;
+}*/
+
+#left {
+  width: 30%;
+  float: left;
+}
+
+#splitter {
+  width: 5%;
+  float: left;
+}
+
+#right {
+  width: 65%;
+  float: right;
+}
+
+.flexbox {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  border-right: 2px solid black;
+  padding-right: 5px;
+}
+
+#td {
+  border-right: 1px solid black;
+}
