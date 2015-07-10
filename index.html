@@ -1,11 +1,14 @@
 <!doctype html>
 
 <html lang="en">
-<head>
+<head> 
+  <link rel="stylesheet" type="text/ss" href="style.css">
   <meta charset="utf-8">
   <title>Nashville Software School</title>
 </head>
 
+
+<!--USE DIVS AND SPANS-->
 
 <!--USE DIVS AND SPANS-->
 
@@ -16,65 +19,66 @@
       <a href="#">Profile</a></p>
   </nav>
 </header>
-<!--<div class="flexbox">-->
-<div id="container">
-  <div id="left"></div>
-  <span style="display: inline-block"></span>
-  <table id="table" style="width:25%">
-    <tr>
-      <td>Song length
-        <br>
-        <input id="test" type="range" />
-      </td>
-    </tr>
-    <tr>
-      <td>Artist
-        <br>
-        <select>
-          <option value="Tool">Tool</option>
-          <option value="Puscifer">Puscifer</option>
-          <option value="Jimi">Jimi Hendrix</option>
-          <option value="Aesop">Aesop Rock</option>
-        </select>
-        </span>
-      </td>
-    </tr>
-
-    <tr>
-      <td>Album
-        <br>
-        <select>
-          <option value="Ten">Ten-Thousand Days</option>
-          <option value="Later">Lateralus</option>
-          <option value="Opiate">Opiate</option>
-          <option value="Salv">Salival</option>
-        </select>
-        <td>
-    </tr>
-    <td>
-      Genre
-      <form>
-        <input type="radio" name="Genre" value="Genre" checked>Rock
-        <input type="radio" name="Genre" value="Genre">Pop
-        <form>
+<div class="media">
+  <div class="flexbox">
+    <div id="container"></div>
+    <div id="left"></div>
+    <span style="display: inline-block"></span>
+    <table id="table" style="width:25%">
+      <tr>
+        <td>Song length
           <br>
-          <input type="radio" name="Genre" value="Genre" checked>Blues
-          <input type="radio" name="Genre" value="Genre">classical
+          <input id="test" type="range" />
+        </td>
+      </tr>
+      <tr>
+        <td>Artist
+          <br>
+          <select>
+            <option value="Tool">Tool</option>
+            <option value="Puscifer">Puscifer</option>
+            <option value="Jimi">Jimi Hendrix</option>
+            <option value="Aesop">Aesop Rock</option>
+          </select>
+          </span>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Album
+          <br>
+          <select>
+            <option value="Ten">Ten-Thousand Days</option>
+            <option value="Later">Lateralus</option>
+            <option value="Opiate">Opiate</option>
+            <option value="Salv">Salival</option>
+          </select>
+          <td>
+      </tr>
+      <td>
+        Genre
+        <form>
+          <input type="radio" name="Genre" value="Genre" checked>Rock
+          <input type="radio" name="Genre" value="Genre">Pop
+        </form>
+        <form>
+          <input type="radio" name="Genre" value="Genre">Blues
+          <input type="radio" name="Genre" value="Genre">Classical
         </form>
         <form>
           <input type="radio" name="Genre" value="Genre" checked>Jazz
           <input type="radio" name="Genre" value="Genre">Hip Hop
-          <br>
+          <!--<br>-->
           <button type="button" class="butten">Filter</button>
         </form>
-      </form>
-    </td>
-</div>
-</table>
-<!--<span style="display: inline-block">-->
-<!--<div style="width: 50px" id="splitter">-->
+        </form>
+      </td>
+  </div>
+  </table>
+  <!--<span style="display: inline-block">-->
+  <!--<div style="width: 50px" id="splitter">-->
 
-<span id="right">
+  <span id="right">
   <div id="container">
   <table class="content">
     <tr>
@@ -100,8 +104,9 @@
     </td>
     <td>Tool <strong>|</strong> Opiate <strong>|</strong> Alt. Rock</td>
     </span>
-  </div>
+</div>
 </table>
 </div>
 </body>
 </html>
+
